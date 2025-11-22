@@ -1,13 +1,15 @@
 {
   "type": "micro",
-  "wake_word": "You Who",
-  "author": "Tom Grozev",
-  "website": "https://github.com/TomGrozev",
+  "wake_word": "you_who",
+  "author": "Tater Totterson",
+  "website": "https://github.com/TaterTotterson/microWakeWord-Trainer-AppleSilicon",
   "model": "you_who.tflite",
-  "trained_languages": ["en"],
-  "version": 1,
+  "trained_languages": [
+    "en"
+  ],
+  "version": 2,
   "micro": {
-    "probability_cutoff": 0.9,
+    "probability_cutoff": 0.97,
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 30000,
